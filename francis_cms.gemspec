@@ -1,4 +1,4 @@
-$:.push File.expand_path('../lib', __FILE__)
+$LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
 require 'francis_cms/version'
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = 'An IndieWeb-friendly content management system.'
   s.description = "#{s.summary} FrancisCMS is a mountable engine for use in Rails applications."
 
-  s.files = Dir["{app,config,db,lib}/**/*", 'Rakefile', 'README.md']
+  s.files = Dir['{app,config,db,lib}/**/*', 'Rakefile', 'README.md']
 
   # Application
   s.add_dependency 'rails', '~> 4.2'
