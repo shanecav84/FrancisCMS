@@ -183,7 +183,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rainbow (3.0.0)
-    rake (12.3.1)
+    rake (12.3.2)
     redcarpet (3.4.0)
     rouge (1.11.1)
     rubocop (0.60.0)
@@ -234,4 +234,4 @@ DEPENDENCIES
   rubocop (~> 0.60.0)
 
 BUNDLED WITH
-   1.16.1
+   1.17.1
