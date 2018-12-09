@@ -1,4 +1,4 @@
-class AddAuthorAvatarToWebmentionEntries < ActiveRecord::Migration
+class AddAuthorAvatarToWebmentionEntries < ActiveRecord::Migration[4.2]
   def up
     add_column :francis_cms_webmention_entries, :author_avatar, :text
   end

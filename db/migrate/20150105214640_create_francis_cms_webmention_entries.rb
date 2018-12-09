@@ -1,4 +1,4 @@
-class CreateFrancisCmsWebmentionEntries < ActiveRecord::Migration
+class CreateFrancisCmsWebmentionEntries < ActiveRecord::Migration[4.2]
   def up
     create_table :francis_cms_webmention_entries do |t|
       t.belongs_to :webmention

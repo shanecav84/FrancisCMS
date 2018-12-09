@@ -1,4 +1,4 @@
-class CreateFrancisCmsSyndications < ActiveRecord::Migration
+class CreateFrancisCmsSyndications < ActiveRecord::Migration[4.2]
   def up
     create_table :francis_cms_syndications do |t|
       t.text       :url, null: false

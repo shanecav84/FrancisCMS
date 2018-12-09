@@ -1,4 +1,4 @@
-class CreateFrancisCmsLinks < ActiveRecord::Migration
+class CreateFrancisCmsLinks < ActiveRecord::Migration[4.2]
   def up
     create_table :francis_cms_links do |t|
       t.text     :url, null: false

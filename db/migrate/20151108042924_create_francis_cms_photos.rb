@@ -1,4 +1,4 @@
-class CreateFrancisCmsPhotos < ActiveRecord::Migration
+class CreateFrancisCmsPhotos < ActiveRecord::Migration[4.2]
   def up
     create_table :francis_cms_photos do |t|
       t.text     :photo, null: false

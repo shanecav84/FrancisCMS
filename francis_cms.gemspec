@@ -21,14 +21,14 @@ Gem::Specification.new do |spec|
   spec.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(bin|spec)/}) }
 
   # Application
-  spec.add_dependency 'rails', '~> 4.2', '>= 4.2.11'
+  spec.add_dependency 'rails', '~> 5.2', '>= 4.2.11'
 
   # Database
-  spec.add_dependency 'pg', '~> 0.21.0'
+  spec.add_dependency 'pg', '~> 1.0', '>= 0.21.0'
 
   # Utilities
-  spec.add_dependency 'acts-as-taggable-on', '~> 3.5'
-  spec.add_dependency 'carrierwave', '~> 0.11.2'
+  spec.add_dependency 'acts-as-taggable-on', '~> 6.0', '>= 3.5.0'
+  spec.add_dependency 'carrierwave', '~> 1.2', '>= 0.11.2'
   spec.add_dependency 'colored', '~> 1.2'
   spec.add_dependency 'friendly_id', '~> 5.2', '>= 5.2.4'
   spec.add_dependency 'geocoder', '~> 1.5'
@@ -42,7 +42,7 @@ Gem::Specification.new do |spec|
   # POSSE
   spec.add_dependency 'flickr-objects', '~> 0.6.3'
   spec.add_dependency 'medium-sdk-ruby', '~> 1.0', '>= 1.0.2'
-  spec.add_dependency 'twitter', '~> 5.17'
+  spec.add_dependency 'twitter', '~> 6.0', '>= 5.17'
 
   # Development dependencies
   spec.add_development_dependency 'brakeman', '~> 4.3', '>= 4.3.1'

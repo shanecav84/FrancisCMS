@@ -1,4 +1,4 @@
-class AddFragmentionToWebmentions < ActiveRecord::Migration
+class AddFragmentionToWebmentions < ActiveRecord::Migration[4.2]
   def up
     add_column :francis_cms_webmentions, :fragmention, :text
   end

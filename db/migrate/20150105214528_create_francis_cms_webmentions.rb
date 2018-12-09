@@ -1,4 +1,4 @@
-class CreateFrancisCmsWebmentions < ActiveRecord::Migration
+class CreateFrancisCmsWebmentions < ActiveRecord::Migration[4.2]
   def up
     create_table :francis_cms_webmentions do |t|
       t.text       :source, null: false

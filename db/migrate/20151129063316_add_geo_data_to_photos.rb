@@ -1,4 +1,4 @@
-class AddGeoDataToPhotos < ActiveRecord::Migration
+class AddGeoDataToPhotos < ActiveRecord::Migration[4.2]
   def up
     add_column :francis_cms_photos, :street_address, :text
     add_column :francis_cms_photos, :city, :text
